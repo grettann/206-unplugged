@@ -436,16 +436,108 @@ aside .newsletter-input {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet Styles Here*/
+
+  /*----------- GENERAL STYLES - HEADER AND FOOTER -----------*/
+  .content-wrapper {
+    max-width:640px;
+    margin:100px 0;
+  }
+
+  /* Header */
+  header {
+    justify-content: center;
+  }
+
+  header .content-wrapper {
+    width:;
+    justify-content: center;
+  }
+
+  header nav {
+    width:
+  }
+
+  header nav ul {
+    justify-content: center;
+  }
+
+  .header-divider {
+    display:none;
+  }
+
+  /* Footer */
+footer .content-wrapper {
+  width: 
+  margin: 100px 0;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+.footer-content {
+display:flex;
+justify-content:center;
+align-items:center;
 }
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .copyright {
+  width:
+}
+
+  /*----------- HOMEPAGE -----------*/
+
+
+ /*Hero Area*/
+
+ /*Aside*/
+ aside .content-wrapper {
+   margin: 50px 0;
+   display:flex;
+   justify-content: center;
+   flex-flow: row wrap;
+ }
+
+ aside .content-wrapper .form-description,
+ aside .content-wrapper .form {        
+     width:;         
+     margin: 0;
+ }
+ /* Features */
+
+ .features article {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow: row wrap;
+  flex-basis:21%;
+ }
+
+ .features .features-item-description {
+  width: 
+}
+
+/* Reviews */
+.reviews article {
+  display:flex;
+  justify-content:center;
+}
+
+.reviews article div {
+    width:         
+}
+
+
+
+}
+
+@media only screen and (min-width: 1200px){
+  /* Desktop Styles Here */
+}
+
+
 
 /* ==========================================================================
    Print styles.
