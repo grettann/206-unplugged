@@ -368,6 +368,9 @@ aside .newsletter-input {
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
+ 
 }
 
 .mission .content-wrapper {
@@ -375,7 +378,7 @@ aside .newsletter-input {
 }
 
 .mission .mission-content {
-
+  
 }
 
 .map {
@@ -391,6 +394,9 @@ aside .newsletter-input {
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
+  background-color: #2a423a;
+  color: #e2e3ed;
+  
 }
 
 .contact-section .content-wrapper {
@@ -398,7 +404,7 @@ aside .newsletter-input {
 }
 
 .contact-section .contact-description {
-
+  text-align: left;
 }
 
 
@@ -409,6 +415,8 @@ aside .newsletter-input {
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 .faq .content-wrapper {
