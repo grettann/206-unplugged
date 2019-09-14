@@ -109,6 +109,7 @@ html {
 body {
   font-family : 'Open Sans', sans-serif;
   font-size:1em;
+ 
 }
 
 ul, ol {
@@ -124,16 +125,19 @@ a {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size:2.25em;
+  font-weight:700;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size:1.875em;
+  font-weight:500;
 }
 
 h3, h4 {
     font-family: 'Poppins', sans-serif;
     font-size:1.125em;
+    font-weight:500;
 }
 
 p {
@@ -157,6 +161,7 @@ address {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
+  
 }
 
 
@@ -175,6 +180,7 @@ footer {
 
 header {
   padding: 15px 0;
+  
 }
 
 header .content-wrapper {
@@ -197,6 +203,8 @@ header figure {
 
 header .header-divider {
   width:100%;
+  border-bottom: .5px solid #3a3a3a;
+  padding:5px;
 }
 
 header nav {
@@ -259,15 +267,27 @@ footer {
 
 }
 
-.hero-area {
+.hero-area h1 {
   display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-flow:row wrap;
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
-  background-size: cover;  
+  justify-content:start;
+  align-items:start;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+}
+
+.hero-area {
+  background: url(../img/jake-melara-30679-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
   color: #e2e3ed;
 }
+
 
 
 /* Homepage - Newsletter */
@@ -350,8 +370,11 @@ aside .newsletter-input {
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
-  width: 45%;
+  width: 60%;
+  padding: 40px;
   text-align:center;
+  font-size:.9em;
+  
 }
 
 .features .fontawesome-icon {
@@ -371,23 +394,28 @@ aside .newsletter-input {
   flex-flow:row wrap;
   background-color: #2a423a;
   color: #e2e3ed;
+ 
 }
 
-.reviews h3 {
-  width:45%;
+.reviews figure {
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+  
 }
 
-.reviews .content-wrapper {
+ .reviews-text {
+    width: 100%; 
+    display:flex;
+    justify-content:center;
+     align-items:center;
+    flex-flow: row wrap;
+  }
 
-}
+  
 
-.reviews .reviews-image {
-
-}
-
-.reviews .reviews-text {
-
-}
 
 /* ---------------- ABOUT ---------------- */
 
@@ -625,6 +653,12 @@ footer .copyright {
 
  /*Hero Area*/
 
+.hero-area h1 {
+  font-size: 3em;
+ 
+}
+
+
  /*Aside*/
  aside .content-wrapper {
    margin: 50px 0;
@@ -633,6 +667,8 @@ footer .copyright {
    flex-flow: row wrap;
  }
 
+
+
  aside .content-wrapper .form-description,
  aside .content-wrapper .form {        
              
@@ -640,27 +676,79 @@ footer .copyright {
  }
  /* Features */
 
- .features article {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-flow: row wrap;
-  flex-basis:43%;
- }
 
- .features .features-item-description {
-  width: 43%
+
+ .features h2 {
+    margin: 0 20px 20px 0;
+    font-size: 2.25em;
+  }
+
+.features article {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 38%;
+    
+  }
 }
+  
+  .features .features-item-description {
+    width: 70%;
+  }
 
 /* Reviews */
-.reviews article {
+
+
+
+.reviews .content-wrapper {
   display:flex;
-  justify-content:center;
+  justify-content:space-around;
+  align-content:center;
+ 
 }
 
-.reviews article div {
-    width:42%;      
+
+.reviews .reviews-photo-and-text {
+  display:flex;
+  justify-content:space-around;
+  align-content:center;
+  
+
 }
+
+.reviews figure {
+  width: 45%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  
+}
+
+.reviews p {
+  font-size: .9em;
+  line-height:1.25em;
+}
+
+ .reviews-text {
+    width: 40%; 
+    display:flex;
+    
+    align-items:center;
+    flex-flow: row wrap;
+  }
+
+  .reviews h2 {
+    width: 80%;
+    font-size: 2.25em;
+   
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
+  }
+
 
  /*----------- ABOUT PAGE -----------*/
 
