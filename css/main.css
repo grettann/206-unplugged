@@ -271,11 +271,12 @@ footer {
   display:flex;
   justify-content:start;
   align-items:start;
-}
-
-.hero-area h1 {
+  margin:0;
+  padding:0;
   font-size: 2.25em;
 }
+
+
 
 .hero-area {
   background: url(../img/jake-melara-30679-unsplash.jpg);
@@ -318,7 +319,7 @@ input[type=text] {
   width: 100%;
   color: #2a423a;
   font-style:italic;
-  padding:20px;
+  padding:5px;
 }
 
 input[type=button] {
@@ -336,9 +337,6 @@ input[type=button] {
 }
 
 
-aside .newsletter-input {
-
-}
 
 /* Homepage - Features */
 
@@ -370,7 +368,7 @@ aside .newsletter-input {
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
-  width: 60%;
+  width: 80%;
   padding: 40px;
   text-align:center;
   font-size:.9em;
@@ -388,31 +386,22 @@ aside .newsletter-input {
 /* Homepage - Reviews */
 
 .reviews {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-flow:row wrap;
   background-color: #2a423a;
-  color: #e2e3ed;
- 
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.reviews figure {
-  width: 100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-flow:row wrap;
-  
+.reviews h2 {
+  margin-bottom: 40px;
+  line-height: 1;
 }
 
- .reviews-text {
-    width: 100%; 
-    display:flex;
-    justify-content:center;
-     align-items:center;
-    flex-flow: row wrap;
-  }
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
 
   
 
@@ -423,7 +412,7 @@ aside .newsletter-input {
   display:flex;
   justify-content:center;
   align-items:center;
-  flex-flow:row wrap;
+
   background-color: #527158;
   color: #e2e3ed;
  
@@ -434,7 +423,11 @@ aside .newsletter-input {
 }
 
 .mission .mission-content {
-  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:column wrap;
+  width:100%;
 }
 
 .map {
@@ -663,17 +656,40 @@ footer .copyright {
  aside .content-wrapper {
    margin: 50px 0;
    display:flex;
-   justify-content: center;
+   justify-content: space-around;
    flex-flow: row wrap;
  }
 
+aside .form-description{
+  width: 30%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-flow:row wrap;
 
+}
+
+aside h3 {
+ font-size:1.5em;
+ margin:0;
+}
+
+aside .form{
+  width: 31%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-flow:row wrap;
+}
 
  aside .content-wrapper .form-description,
  aside .content-wrapper .form {        
              
      margin: 0;
  }
+
+
+
  /* Features */
 
 
@@ -699,55 +715,25 @@ footer .copyright {
 
 /* Reviews */
 
-
-
-.reviews .content-wrapper {
-  display:flex;
-  justify-content:space-around;
-  align-content:center;
- 
+.reviews article {
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.reviews .reviews-photo-and-text {
-  display:flex;
-  justify-content:space-around;
-  align-content:center;
-  
-
+.reviews h2 {
+  width: 90%;
 }
 
-.reviews figure {
-  width: 45%;
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  
+.reviews article figure,
+.reviews article div {
+  width: 49%;
 }
 
-.reviews p {
-  font-size: .9em;
-  line-height:1.25em;
+.reviews h3 {
+  width: 75%;
+  margin: 0;
 }
 
- .reviews-text {
-    width: 40%; 
-    display:flex;
-    
-    align-items:center;
-    flex-flow: row wrap;
-  }
-
-  .reviews h2 {
-    width: 80%;
-    font-size: 2.25em;
-   
-  }
-
-  .reviews h3 {
-    width: 75%;
-    margin: 0;
-  }
 
 
  /*----------- ABOUT PAGE -----------*/
@@ -800,129 +786,6 @@ footer .copyright {
   max-width:90%;
   margin:100px 0;
 }
-
-/* Header */
-header {
-  justify-content: center;
-}
-
-header .content-wrapper {
-
-  justify-content: center;
-}
-
-header nav {
-  width: 13%;
-}
-
-header nav ul {
-  justify-content: center;
-}
-
-.header-divider {
-  display:none;
-}
-
-/* Footer */
-footer .content-wrapper {
-width:90%;
-margin: 100px 0;
-}
-
-.footer-content {
-display:flex;
-justify-content:center;
-align-items:center;
-}
-
-footer .contact {
-margin-bottom: 0;
-}
-
-footer .copyright {
-width: 26%;
-}
-
-/*----------- HOMEPAGE -----------*/
-
-
-/*Hero Area*/
-
-/*Aside*/
-aside .content-wrapper {
- margin: 50px 0;
- display:flex;
- justify-content: center;
- flex-flow: row wrap;
-}
-
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {        
-           
-   margin: 0;
-}
-/* Features */
-
-.features article {
-display:flex;
-justify-content:center;
-align-items:center;
-flex-flow: row wrap;
-flex-basis:43%;
-}
-
-.features .features-item-description {
-width: 43%;
-}
-
-/* Reviews */
-.reviews article {
-display:flex;
-justify-content:center;
-}
-
-.reviews article div {
-  width:40%;      
-}
-
-/*----------- ABOUT PAGE -----------*/
-
-.mission-content {
- display:flex;
- justify-content:space-between;
- align-items: center;
-}
-
-
-.mission-content p {
- width:40%;
-}
-
-.contact-section .content-wrapper h2 {
- width:80%;
-}
-
-.contact-content {
-display:flex;
-justify-content:space-around;
-align-items:center;
-}
-
-
-/*----------- FAQ PAGE -----------*/
-
-.faq .content-wrapper {
- justify-content: space-between;
-}
-
-.faq-content {
- flex-basis: 40%;
-}
-
-.faq h2 {
- width:60%;
-}
-
 
 
 }
