@@ -239,6 +239,7 @@ footer {
 /* Homepage - Hero */
 
 .hero-area .content-wrapper {
+  
 
 }
 
@@ -600,11 +601,11 @@ footer .copyright {
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
-  flex-basis:21%;
+  flex-basis:43%;
  }
 
  .features .features-item-description {
-  width: 20%
+  width: 43%
 }
 
 /* Reviews */
@@ -735,11 +736,11 @@ display:flex;
 justify-content:center;
 align-items:center;
 flex-flow: row wrap;
-flex-basis:13%;
+flex-basis:43%;
 }
 
 .features .features-item-description {
-width: 13%
+width: 43%;
 }
 
 /* Reviews */
