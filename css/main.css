@@ -441,7 +441,7 @@ aside .newsletter-input {
 
   /*----------- GENERAL STYLES - HEADER AND FOOTER -----------*/
   .content-wrapper {
-    max-width:640px;
+    max-width:90%;
     margin:100px 0;
   }
 
@@ -451,12 +451,12 @@ aside .newsletter-input {
   }
 
   header .content-wrapper {
-    width:;
+  
     justify-content: center;
   }
 
   header nav {
-    width:
+    width: 20%;
   }
 
   header nav ul {
@@ -469,7 +469,7 @@ aside .newsletter-input {
 
   /* Footer */
 footer .content-wrapper {
-  width: 
+  width:90%;
   margin: 100px 0;
 }
 
@@ -484,7 +484,7 @@ footer .contact {
 }
 
 footer .copyright {
-  width:
+  width: 31%;
 }
 
   /*----------- HOMEPAGE -----------*/
@@ -502,7 +502,7 @@ footer .copyright {
 
  aside .content-wrapper .form-description,
  aside .content-wrapper .form {        
-     width:;         
+             
      margin: 0;
  }
  /* Features */
@@ -516,7 +516,7 @@ footer .copyright {
  }
 
  .features .features-item-description {
-  width: 
+  width: 20%
 }
 
 /* Reviews */
@@ -526,9 +526,46 @@ footer .copyright {
 }
 
 .reviews article div {
-    width:         
+    width:42%;      
 }
 
+ /*----------- ABOUT PAGE -----------*/
+
+ .mission-content {
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+ }
+
+
+ .mission-content p {
+   width:42%;
+ }
+
+ .contact-section .content-wrapper h2 {
+   width:73%;
+ }
+
+ .contact-content {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+ }
+
+
+ /*----------- FAQ PAGE -----------*/
+
+ .faq .content-wrapper {
+   justify-content: space-between;
+ }
+
+ .faq-content {
+   flex-basis: 40%;
+ }
+
+ .faq h2 {
+   width:100%;
+ }
 
 
 }
