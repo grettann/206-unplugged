@@ -411,23 +411,20 @@ input[type=button] {
 .mission {
   display:flex;
   justify-content:center;
-  align-items:center;
-
-  background-color: #527158;
+ background-color: #527158;
   color: #e2e3ed;
  
 }
 
 .mission .content-wrapper {
-
+  width:90%;
 }
 
 .mission .mission-content {
   display:flex;
-  justify-content:center;
-  align-items:center;
+  justify-content:start;
   flex-flow:column wrap;
-  width:100%;
+  
 }
 
 .map figure {
@@ -750,16 +747,6 @@ aside .form{
 
  /*----------- ABOUT PAGE -----------*/
 
- .mission-content {
-   display:flex;
-   justify-content:space-between;
-   align-items: center;
- }
-
-
- .mission-content p {
-   width:42%;
- }
 
  .map figure {
 
