@@ -403,7 +403,9 @@ input[type=button] {
 }
 
 
-  
+
+
+
 
 
 /* ---------------- ABOUT ---------------- */
@@ -724,24 +726,30 @@ aside .form{
 
 /* Reviews */
 
-.reviews article {
-  display: flex;
-  justify-content: space-between;
+
+
+.reviews h3 {
+  width: 80%;
+  margin: 0;
 }
 
 .reviews h2 {
   width: 90%;
 }
 
+
+
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .reviews article figure,
 .reviews article div {
   width: 49%;
 }
 
-.reviews h3 {
-  width: 75%;
-  margin: 0;
-}
 
 
 
@@ -782,6 +790,11 @@ aside .form{
 
 
 }
+
+
+
+
+
 
 @media only screen and (min-width: 1200px){
   /* Desktop Styles Here */
