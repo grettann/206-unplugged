@@ -387,22 +387,9 @@ input[type=button] {
 
 .reviews {
   background-color: #2a423a;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+  margin: 0;
+  padding: 5px;
 }
-
-.reviews h2 {
-  margin-bottom: 40px;
-  line-height: 1;
-}
-
-.reviews h3 {
-  width: 55%;
-  margin: 20px 0;
-}
-
-
 
 
 
@@ -742,6 +729,7 @@ aside .form{
 .reviews article {
   display: flex;
   justify-content: space-between;
+  
 }
 
 
